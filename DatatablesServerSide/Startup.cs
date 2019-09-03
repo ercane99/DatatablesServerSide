@@ -17,6 +17,7 @@ namespace DatatablesServerSide
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
+            Data.StudentContext.InitStudentList(1000);//Add this line to create 100 students
         }
 
         public IConfiguration Configuration { get; }

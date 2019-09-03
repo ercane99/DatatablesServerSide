@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 using DatatablesServerSide.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace DatatablesServerSide.Controllers
 {
